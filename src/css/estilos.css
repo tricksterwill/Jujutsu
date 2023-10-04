@@ -1,0 +1,108 @@
+
+body{
+    background-color: #000;
+    overflow: hidden;
+}
+
+main::after {
+    content: "";
+    background: linear-gradient(-233deg, #000 14%, rgb(0, 0, 0, 0) 60%)no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 80vw;
+
+}
+
+.personagem {
+    display: none;
+    height: 100vh;
+}
+
+.personagem.selecionado {
+    display: block;
+}
+
+.imagem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imagem.toji{ 
+    height: 1880px;
+    object-fit: cover;
+    
+}
+
+.conteudo {
+
+    position: absolute;
+    top: 0;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 800px;
+    z-index: 1;
+}
+
+.nome-personagem {
+
+    color: antiquewhite;
+    font-size: 100px;
+    font-family: "secular one";
+    margin-bottom: 20px;
+}
+
+.descricao {
+
+
+    color: antiquewhite;
+    font-family: "rubik";
+    font-size: 27px;
+    line-height: 25px;
+}
+
+.logo {
+
+    background-image: url("../imagens/jujutsu-logo.png");
+    background-size: cover;
+    width: 500px;
+    height: 120px;
+    margin-bottom: 40px;
+
+}
+
+.botoes {
+    background-color: rgb(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    gap: 10px;
+    width: 450px;
+    align-items: center;
+
+}
+.botao{
+    background:none;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    border-radius: 50%;
+}
+
+.botoes .botao img{
+    border-radius: 50%;
+
+}
+.botao.selecionado{
+
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #c6d17a;
+}
