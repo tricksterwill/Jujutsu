@@ -66,11 +66,11 @@ main::after {
     line-height: 25px;
 }
 
-.logo {
+.conteudo .logo {
 
     background-image: url("../imagens/jujutsu-logo.png");
     background-size: cover;
-    width: 230px;
+    width: 399px;
     height: 100px;
     margin-bottom: 35px;
 
@@ -96,6 +96,7 @@ main::after {
     cursor: pointer;
     color: #000;
     border-radius: 50%;
+    
 }
 
 .botoes .botao img{
