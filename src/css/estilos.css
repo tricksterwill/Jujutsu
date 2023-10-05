@@ -44,16 +44,17 @@ main::after {
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
-    max-width: 800px;
+    max-width: 380px;
     z-index: 1;
 }
 
 .nome-personagem {
 
     color: antiquewhite;
-    font-size: 100px;
+    font-size: 48px;
     font-family: "secular one";
     margin-bottom: 20px;
+    font-weight: 400;
 }
 
 .descricao {
@@ -61,7 +62,7 @@ main::after {
 
     color: antiquewhite;
     font-family: "rubik";
-    font-size: 27px;
+    font-size: 20px;
     line-height: 25px;
 }
 
@@ -69,14 +70,14 @@ main::after {
 
     background-image: url("../imagens/jujutsu-logo.png");
     background-size: cover;
-    width: 500px;
-    height: 120px;
-    margin-bottom: 40px;
+    width: 230px;
+    height: 100px;
+    margin-bottom: 35px;
 
 }
 
 .botoes {
-    background-color: rgb(0, 0, 0, 0.3);
+    background-color: rgb(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
     right: 0;
@@ -85,7 +86,7 @@ main::after {
     min-height: 100vh;
     justify-content: center;
     gap: 10px;
-    width: 450px;
+    width: 180px;
     align-items: center;
 
 }
