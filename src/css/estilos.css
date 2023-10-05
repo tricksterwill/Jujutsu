@@ -30,7 +30,7 @@ main::after {
     object-fit: cover;
 }
 .imagem.toji{ 
-    height: 1880px;
+    height: 995px;
     object-fit: cover;
     
 }
@@ -39,19 +39,19 @@ main::after {
 
     position: absolute;
     top: 0;
-    left: 120px;
+    left: 100px;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: center;
     min-height: 100vh;
-    max-width: 380px;
+    max-width: 200px;
     z-index: 1;
 }
 
 .nome-personagem {
 
     color: antiquewhite;
-    font-size: 48px;
+    font-size: 30px;
     font-family: "secular one";
     margin-bottom: 20px;
     font-weight: 400;
@@ -62,16 +62,16 @@ main::after {
 
     color: antiquewhite;
     font-family: "rubik";
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 12px;
+    line-height: 15px;
 }
 
 .conteudo .logo {
 
     background-image: url("../imagens/jujutsu-logo.png");
     background-size: cover;
-    width: 399px;
-    height: 100px;
+    width: 260px;
+    height: 65px;
     margin-bottom: 35px;
 
 }
@@ -86,7 +86,7 @@ main::after {
     min-height: 100vh;
     justify-content: center;
     gap: 10px;
-    width: 180px;
+    width: 100px;
     align-items: center;
 
 }
@@ -101,6 +101,8 @@ main::after {
 
 .botoes .botao img{
     border-radius: 50%;
+    width: 60px;
+    height: 60px;
 
 }
 .botao.selecionado{
